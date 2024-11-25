@@ -46,13 +46,13 @@ def init_seeds(seed):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path_trained_models', default='checkpoints/semi_cps_swin_20')
-    parser.add_argument('--path_seg_results', default='seg_pred/semi_cps_swin_20')
+    parser.add_argument('--path_trained_models', default='checkpoints/semi_fdcl_10')
+    parser.add_argument('--path_seg_results', default='seg_pred/semi_fdcl_10')
     parser.add_argument('-pd', '--path_dataset', default='dataset/GlaS')
-    parser.add_argument('--dataset_name', default='GlaS', help='CREMI, ISIC-2017, GlaS')
+    parser.add_argument('--dataset_name', default='GlaS', help='CRAG, MoNuSeg, GlaS')
     parser.add_argument('--input1', default='image')
-    parser.add_argument('--sup_mark', default='17')
-    parser.add_argument('--unsup_mark', default='68')
+    parser.add_argument('--sup_mark', default='9')
+    parser.add_argument('--unsup_mark', default='76')
     parser.add_argument('-b', '--batch_size', default=2, type=int)
     parser.add_argument('-e', '--num_epochs', default=200, type=int)
     parser.add_argument('-s', '--step_size', default=50, type=int)
