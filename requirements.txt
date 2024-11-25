@@ -1,0 +1,12 @@
+albumentations==0.5.2
+einops==0.8.0
+numpy==1.26.4
+scipy==1.11.4
+SimpleITK==2.3.1
+timm==0.9.16
+torch==2.2.1
+torchaudio==2.2.1
+torchio==0.20.2
+torchvision==0.17.1
+tqdm==4.65.0
+visdom==0.2.4
