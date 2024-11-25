@@ -5,7 +5,7 @@
 
 ## Overview
 
-We present **Feature Diversified Collaborative Learning (FDCL)** for semi-supervised histopathology image segmentation. This method leverages two sub-networks to explore diverse and expanded feature spaces through collaborative training, while ensuring consistent predictions.
+We present **Feature Diversified Collaborative Learning (FDCL)**, a straightforward yet powerful method for semi- supervised histopathology image segmentation. FDCL enhances the power of collaborative training by eliminating a common challenge of this framework—confirmation bias. The core of FDCL is to encourage diverse feature learning across sub-networks, thereby guiding the model to produce robust confidence maps and enhancing the overall consis- tency of predictions.
 
 ## Datasets
 
