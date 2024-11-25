@@ -1,6 +1,7 @@
 # Semi-Supervised Histopathology Image Segmentation with Feature Diversified Collaborative Learning
 
-![image](https://github.com/user-attachments/assets/0579265c-bc49-4432-bc002-42da455ffd9b)
+![image](https://github.com/user-attachments/assets/1a263994-e0a0-406d-9d58-0534ec180fab)
+
 
 ## Overview
 
@@ -14,6 +15,7 @@ We present **Feature Diversified Collaborative Learning (FDCL)** for semi-superv
    - CRAG dataset: [Download CRAG dataset](https://opendatalab.com/OpenDataLab/CRAG/tree/main)
 
 2. **Format the dataset as follows**:
+```bash
   dataset/
   ├── GlaS
   │    ├── train_sup_85
@@ -35,7 +37,7 @@ We present **Feature Diversified Collaborative Learning (FDCL)** for semi-superv
   │    └── val
   │         ├── image
   │         └── mask
-
+```
 ## Training FDCL
 
 1. **Install dependencies**:
